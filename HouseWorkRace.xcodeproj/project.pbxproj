@@ -43,6 +43,8 @@
 		C0A892DD27B8E0C200C60B37 /* MainBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A892C827B8E0C200C60B37 /* MainBar.swift */; };
 		C0A892DE27B8E0C200C60B37 /* UIColor+Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A892CA27B8E0C200C60B37 /* UIColor+Interpolation.swift */; };
 		C0A892E027B8E0D300C60B37 /* MainColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A892DF27B8E0D300C60B37 /* MainColors.swift */; };
+		C0ED7AD927BA2C210055BD71 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED7AD827BA2C210055BD71 /* HomeTableViewCell.swift */; };
+		C0ED7ADD27BA2CB60055BD71 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED7ADC27BA2CB60055BD71 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		C0A892C827B8E0C200C60B37 /* MainBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainBar.swift; sourceTree = "<group>"; };
 		C0A892CA27B8E0C200C60B37 /* UIColor+Interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Interpolation.swift"; sourceTree = "<group>"; };
 		C0A892DF27B8E0D300C60B37 /* MainColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainColors.swift; sourceTree = "<group>"; };
+		C0ED7AD827BA2C210055BD71 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		C0ED7ADC27BA2CB60055BD71 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,7 +272,9 @@
 			isa = PBXGroup;
 			children = (
 				C0A892BB27B8E0C100C60B37 /* HomeViewController.swift */,
+				C0ED7ADC27BA2CB60055BD71 /* TaskViewModel.swift */,
 				C0A892BC27B8E0C100C60B37 /* Home.storyboard */,
+				C0ED7AD827BA2C210055BD71 /* HomeTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -474,7 +480,9 @@
 				C0A892E027B8E0D300C60B37 /* MainColors.swift in Sources */,
 				C0A892DE27B8E0C200C60B37 /* UIColor+Interpolation.swift in Sources */,
 				C0A8926527B8D0B800C60B37 /* AppDelegate.swift in Sources */,
+				C0ED7AD927BA2C210055BD71 /* HomeTableViewCell.swift in Sources */,
 				C0A8926727B8D0B800C60B37 /* SceneDelegate.swift in Sources */,
+				C0ED7ADD27BA2CB60055BD71 /* TaskViewModel.swift in Sources */,
 				C0A892D427B8E0C200C60B37 /* HomeViewController.swift in Sources */,
 				C0A892DB27B8E0C200C60B37 /* MainBarButtonContainer.swift in Sources */,
 				C0A8929E27B8D2D300C60B37 /* Constant.swift in Sources */,

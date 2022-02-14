@@ -10,13 +10,45 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    @IBOutlet private weak var cardView: UIView!
     
+    let taskViewModel = TaskViewModel()
+    
+
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
+    @IBAction func changeGroup(_ sender: UITapGestureRecognizer) {
+        
+        //그룹 변경 메서드 호출 예정
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        cardView.backgroundColor = MainColors.unselectedGray
-        cardView.layer.cornerRadius = 16.0
+        
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        
+    }
+}
+
+extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return taskViewModel.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell") as! HomeTableViewCell
+        
+        let item = taskViewModel.taskList()[indexPath.row]
+        
+        
+        cell.titleLabel.text = item.title
+        
+        
+        return cell
     }
 }
 
