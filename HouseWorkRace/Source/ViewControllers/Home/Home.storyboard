@@ -94,7 +94,7 @@
                                                             <color key="textColor" red="0.96070033310000003" green="0.96083813910000004" blue="0.96067017320000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gdp-Ff-pRu">
+                                                        <view alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gdp-Ff-pRu">
                                                             <rect key="frame" x="187.66666666666663" y="0.0" width="147.33333333333337" height="210"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUd-gY-4lX">
@@ -140,6 +140,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="superView" destination="7Lt-6Q-CZT" id="7wv-AI-B7j"/>
+                                            <outlet property="taskImageVIew" destination="alN-c8-v3s" id="aAW-4H-dOp"/>
                                             <outlet property="titleLabel" destination="dmQ-st-i4P" id="YTk-Pq-9ek"/>
                                         </connections>
                                     </tableViewCell>

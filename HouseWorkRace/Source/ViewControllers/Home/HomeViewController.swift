@@ -47,6 +47,8 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         cell.titleLabel.text = item.title
         
+        cell.taskImageVIew.image = UIImage(named: "\(item.image)")
+        
         
         return cell
     }

@@ -21,8 +21,8 @@ class TaskViewModel {
     
     func taskList() ->  [Task] {
         return [
-            Task(title: "설거지", detail: "하루치 설거지", tag: ["설거지"], location: "부엌", image: "imageurl"),
-            Task(title: "청소기 돌리기", detail: "작은방이랑 큰방", tag: ["모두함께"], location: "", image: "imageurl")
+            Task(title: "설거지", detail: "하루치 설거지", tag: ["설거지"], location: "부엌", image: "washDish"),
+            Task(title: "빨래", detail: "작은방이랑 큰방", tag: ["모두함께"], location: "", image: "laundary")
             ]
     }
     
